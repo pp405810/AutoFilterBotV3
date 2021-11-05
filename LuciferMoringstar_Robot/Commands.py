@@ -84,7 +84,7 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🎖 DEPLOY YOURS 🎖', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('CREATOR', url=f'{TUTORIAL}')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -281,10 +281,10 @@ async def _banned_usrs(c, m):
 @Client.on_message(filters.command('total') & filters.user(ADMINS))
 async def total(bot, message):
     """Show total files in database"""
-    msg = await message.reply("Processing...⏳", quote=True)
+    msg = await message.reply("Processing...🔥", quote=True)
     try:
         total = await Media.count_documents()
-        await msg.edit(f'📁 Saved files: {total}')
+        await msg.edit(f'📁 Saved files 🌚: {total}')
     except Exception as e:
         logger.exception('Failed to check total files')
         await msg.edit(f'Error: {e}')
