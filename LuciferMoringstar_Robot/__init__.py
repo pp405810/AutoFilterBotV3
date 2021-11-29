@@ -16,16 +16,17 @@ Basic Commads
 /start :- check am Alive
 
 Bot Owner only
- YOU ARE NOT MY FATHER GO AWAY MR OR MISS 
- MY FATHER SAID DO NOT GO ANYWERE WITHOUT ME 
- EVERYDAY BUT I LOVE YOU ALSO
+/logs 
+/broadcast
+/stats
+
 
 """
 
 ABOUT = """
 ➥ Name :  Auto Filter V3
     
-➥ Creator : [MY FATHER](https://t.me/tentacion_botz)
+➥ Creator : [MY FATHER](https://t.me/Montage_33)
 
 ➥ Language : Python3
 """
