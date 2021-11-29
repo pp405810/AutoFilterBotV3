@@ -22,6 +22,10 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/pp405810/AutoFilterBotV3)
 
+#### Deploy to railway
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fpp405810%2FAutoFilterBotV3&envs=ADMIN_ID%2CADMINS%2CAPI_ID%2CAUTH_GROUPS%2CAUTH_USERS%2CBOT_NAME%2CBOT_TOKEN%2CBROADCAST%2CBROADCAST_CHANNEL%2CCACHE_TIME%2CCHANNELS%2CCOLLECTION_NAME%2CCUSTOM_FILE_CAPTION%2CDATABASE_1%2CDATABASE_2%2CFORCES_SUB%2COMDB_API_KEY%2CSTART_MSG%2CUSE_CAPTION_FILTER&optionalEnvs=AUTH_GROUPS%2CAUTH_USERS&API_IDDesc=API_ID&BOT_NAMEDefault=LuciferMoringstar_Robot&BROADCASTDefault=True&CACHE_TIMEDefault=300&COLLECTION_NAMEDefault=Telegram_files&USE_CAPTION_FILTERDefault=false&referralCode=DBBOTZ)
+
 #### Hard Way
 ```bash
 # Create virtual environment
